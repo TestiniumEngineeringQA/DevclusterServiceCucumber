@@ -28,7 +28,7 @@ Feature: Get post by ID
     Then the response status code should be 200
     And the response should contain "userId"
     
-  @getPost4
+  @getPost5
   Scenario: Get post with ID 5
     Given the API endpoint is "https://jsonplaceholder.typicode.com/posts/5"
     When I send a GET request
